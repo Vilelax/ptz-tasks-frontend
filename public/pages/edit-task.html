@@ -20,16 +20,21 @@
             </div>
         </div>
     </nav>
-    <h2>New Task</h2>
-    <form action="https://localhost/ptz-tasks/app/task/update" method="post" enctype="multipart/form-data">
-        <input class="hide" type="text" name="id" id="input-id">
-        <p>Title:</p>
-        <input type="text" name="title" id="input-title">
-        <p>Description</p>
-        <input type="text" name="description" id="input-description">
-        <p></p>
-        <input type="submit" value="Update Task">
-    </form>
+
+    <div class="main">
+        <div class="form-container">
+            <h2 class="form-inside-title">New Task</h2>
+            <form action="https://localhost/ptz-tasks/app/task/update" method="post" enctype="multipart/form-data">
+                <input class="hide" type="text" name="id" id="input-id">
+                <p class="labels">Title:</p>
+                <input type="text" name="title" id="input-title">
+                <p class="labels">Description:</p>
+                <input type="text" name="description" id="input-description">
+                <input class="submit-button" type="submit" value="Update Task">
+            </form>
+        </div>
+    </div>
+
     <script src="../assets/js/editTask.js"></script>
 </body>
 </html>

@@ -1,9 +1,124 @@
 *{
     padding: 0;
     margin: 0;
+    text-decoration: none;
 }
 
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #171717;
+    color: whitesmoke;
+    height: 20vh;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+input{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: solid 1px #9b9b9b;
+    padding: 5px;
+}
+
+.submit-button{
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #a170dc;
+    font-size: 20px;
+}
+
+.form-inside-title{
+    margin-bottom: 35px;
+    text-align: center;
+}
 
 .hide{
     display: none;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 425px;
+}
+
+.tasks-list{
+
+}
+
+.card-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.card{
+    padding: 20px;
+}
+
+.card-link{
+    max-width: 550px;
+    text-decoration: none;
+    color: black;
+}
+
+.task-title{
+    text-wrap: normal;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.task-description{
+    text-wrap: normal;
+    font-size: 20px;
+}
+
+.task-creation-button{
+    text-decoration: none;
+    color: black;
+}
+
+.task-creation-button{
+    background-color: #a170dc;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.form-container{
+    width: 450px;
+    border-radius: 10px;
+    border: solid 1px #9b9b9b;
+    padding: 30px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.labels{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 800px) {
+
+    .tasks-list{
+        max-width: 400px;
+    }
+
 }
